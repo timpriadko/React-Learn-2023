@@ -1,7 +1,12 @@
 import React from 'react';
 
 const TextComponent = () => {
-  return <div>index</div>;
+  return (
+    <>
+      <h1>Lorem</h1>
+      <p>Lorem ipsum</p>
+    </>
+  );
 };
 
 export default TextComponent;
