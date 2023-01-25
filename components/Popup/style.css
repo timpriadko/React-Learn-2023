@@ -1,0 +1,27 @@
+.popup-wrapper {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #000;
+  z-index: 10;
+  min-width: 40vw;
+  min-height: 40vh;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.popup-header {
+  border-bottom: 1px solid #000;
+  display: flex;
+  align-items: flex-end;
+}
+
+.popup-header,
+.popup-body {
+  padding: 2rem;
+}
+
+.popup-header button {
+  margin-left: auto;
+}
